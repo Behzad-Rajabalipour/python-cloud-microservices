@@ -26,5 +26,12 @@ spec:
                 name: converter-configmap
             - secretRef:
                 name: converter-secret
-
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
+      restartPolicy: Always
     
