@@ -1,0 +1,3 @@
+service:
+  name: behzad
+  port: 15672
